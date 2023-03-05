@@ -208,8 +208,6 @@ Hooks.once('setup', () => {
 })
 
 function createEditor(element: HTMLElement, content: string) {
-    monaco.editor.getModels().forEach(model => model.dispose())
-
     return monaco.editor.create(element, {
         value: content,
         language: 'javascript',
