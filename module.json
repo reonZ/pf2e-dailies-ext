@@ -1,0 +1,49 @@
+{
+    "id": "pf2e-dailies-ext",
+    "title": "PF2e Dailies Ext",
+    "author": "Idle",
+    "description": "An extension for the module PF2e Dailies adding a powerful text editor for homebrew dailies.",
+    "authors": [
+        {
+            "name": "Idle",
+            "discord": "Idle#3251"
+        }
+    ],
+    "esmodules": [
+        "scripts/main.js"
+    ],
+    "compatibility": {
+        "minimum": "10.291",
+        "verified": "10"
+    },
+    "version": "1.0.0",
+    "manifestPlusVersion": "1.2.0",
+    "url": "https://github.com/reonZ/pf2e-dailies-ext",
+    "readme": "https://github.com/reonZ/pf2e-dailies-ext/blob/master/README.md",
+    "manifest": "https://raw.githubusercontent.com/reonZ/pf2e-dailies-ext/master/module.json",
+    "download": "https://github.com/reonZ/pf2e-dailies-ext/releases/download/1.0.0/module.zip",
+    "changelog": "https://github.com/reonZ/pf2e-dailies-ext/blob/master/CHANGELOG.md",
+    "bugs": "https://github.com/reonZ/pf2e-dailies-ext/issues",
+    "relationships": {
+        "systems": [
+            {
+                "id": "pf2e",
+                "type": "system",
+                "manifest": "https://raw.githubusercontent.com/foundryvtt/pf2e/master/system.json",
+                "compatibility": {
+                    "minimum": "4.8.3"
+                }
+            }
+        ],
+        "requires": [
+            {
+                "id": "pf2e-dailies",
+                "type": "module",
+                "manifest": "https://raw.githubusercontent.com/reonZ/pf2e-dailies/master/module.json",
+                "compatibility": {
+                    "minimum": "2.0.0"
+                }
+            }
+        ]
+    }
+}
