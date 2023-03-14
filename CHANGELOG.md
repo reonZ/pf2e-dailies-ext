@@ -1,3 +1,7 @@
+# 1.2.0
+
+-   updated for system version `4.9.0`
+
 # 1.1.0
 
 -   no longer dispose models
