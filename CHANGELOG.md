@@ -1,3 +1,8 @@
+# 1.3.0
+
+-   updated for system version `4.10.0`
+-   compatible with version `2.6.0`
+
 # 1.2.0
 
 -   updated for system version `4.9.0`
